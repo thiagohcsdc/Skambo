@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins';
+}
+main{
+    background: #e2ce1a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    background: #36320a;
+    width: 304px;
+    height: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px 0 0 16px;
+    padding: 20px 50px 20px 50px;
+   
+}
+.agrupar{
+    width: 224px;
+    height: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#skambo{
+    width: 157px;
+    height: 91px;
+}
+.texto > h1{
+
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+
+}
+.texto > h2{
+    
+    font-size: 23px;
+    color: #fff;
+    font-weight: 500;
+   
+}
+.left > button{
+
+    background: #36320A;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 25px;
+    border-color: #fff;
+    width: 232px;
+    height: 70px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 4PX solid ;
+
+}
+a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 30px;
+    border-color: #c4c4c4;
+    width: 190px;
+    height: 29px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.right{
+    background: #fefaa1;
+    width: 640px;
+    height: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 20px 20px 0;
+}
+.right > h1 {
+      
+      font-size: 32px;
+    
+      font-weight:800 ;
+      color: #000000;
+     
+}
+.right > h2 {
+ font-size: 19px;
+ font-weight: 500;
+ color: #000000;
+ margin-bottom: 15px;
+ 
+}
+.textfield {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    height: 10%;
+  
+}
+.textfield > img{
+    border: 2px solid red;
+    position: absolute;
+    padding-left: 15px;
+    top: 20%;
+}
